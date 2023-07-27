@@ -97,43 +97,52 @@ header{
     padding: 70px 25px;
     min-height: auto;
 
-    .story{
-        width: 50%;
+    .frame{
         display: flex;
-        flex-direction: column;
+        justify-content: center;
         align-items: center;
-        
-        h2{
-            text-align: center;
-        }
-        p{
-            margin: 20px;
-        }
-        .button-homepage{
-            text-transform: none;
-            font-size: 1.3rem;
-            font-weight: 600;
-        }
-    }
-    .photos{
         width: 50%;
-        position: relative;
-
-        img{
-            box-shadow: 0px 20px 40px rgba(0,0,0,.6);
+        
+        .story{
+            width: 35%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            h2{
+                text-align: center;
+            }
+            p{
+                margin: 20px;
+            }
+            .button-homepage{
+                text-transform: none;
+                font-size: 1.3rem;
+                font-weight: 600;
+            }
         }
 
-        img:nth-child(1){
-            max-width: 400px;
-            position: absolute;
-            top: 0px;
-            right: 25px;
-        }
-        img:nth-child(2){
-            max-width: 295px;
-            position: absolute;
-            top: 140px;
-            left: 35px;
+        .photos{
+            min-width: 650px;
+            height: 100%;
+            position: relative;
+    
+            img{
+                box-shadow: 0px 20px 40px rgba(0,0,0,.6);
+            }
+    
+            img:nth-child(1){
+                max-width: 400px;
+                position: absolute;
+                top: 0px;
+                right: 25px;
+            }
+            img:nth-child(2){
+                max-width: 295px;
+                position: absolute;
+                top: 140px;
+                left: 35px;
+            }
         }
     }
 }

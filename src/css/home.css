@@ -132,31 +132,37 @@ header {
   text-align: center;
   padding: 70px 25px;
   min-height: auto; }
-  #histoire .story {
-    width: 50%;
+  #histoire .frame {
     display: flex;
-    flex-direction: column;
-    align-items: center; }
-    #histoire .story h2 {
-      text-align: center; }
-    #histoire .story p {
-      margin: 20px; }
-    #histoire .story .button-homepage {
-      text-transform: none;
-      font-size: 1.3rem;
-      font-weight: 600; }
-  #histoire .photos {
-    width: 50%;
-    position: relative; }
-    #histoire .photos img {
-      box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.6); }
-    #histoire .photos img:nth-child(1) {
-      max-width: 400px;
-      position: absolute;
-      top: 0px;
-      right: 25px; }
-    #histoire .photos img:nth-child(2) {
-      max-width: 295px;
-      position: absolute;
-      top: 140px;
-      left: 35px; }
+    justify-content: center;
+    align-items: center;
+    width: 50%; }
+    #histoire .frame .story {
+      width: 35%;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      #histoire .frame .story h2 {
+        text-align: center; }
+      #histoire .frame .story p {
+        margin: 20px; }
+      #histoire .frame .story .button-homepage {
+        text-transform: none;
+        font-size: 1.3rem;
+        font-weight: 600; }
+    #histoire .frame .photos {
+      min-width: 650px;
+      height: 100%;
+      position: relative; }
+      #histoire .frame .photos img {
+        box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.6); }
+      #histoire .frame .photos img:nth-child(1) {
+        max-width: 400px;
+        position: absolute;
+        top: 0px;
+        right: 25px; }
+      #histoire .frame .photos img:nth-child(2) {
+        max-width: 295px;
+        position: absolute;
+        top: 140px;
+        left: 35px; }
