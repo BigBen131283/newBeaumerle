@@ -12,22 +12,26 @@
 </head>
 <body>
     <header id="accueil">
-        <div class="logo">
-            <input type="checkbox" id="nav">
+        <!--<div class="logo">-->
+            <input type="checkbox" class="checkbox-toggler" id="nav">
             <label for="nav" class="nav-button">
-                <img src="./src/images/logo1.png" alt="Logo Beau Merle">
+                <img src="./src/images/logo1.png" alt="Logo Beau Merle" class="nav-logo">
+                <span class="nav-icon"></span>
             </label>
-        </div>
+        <!--</div>-->
+        <div class="nav-bg"></div>
         <nav class="navigation">
-            <span><a href="#accueil">Accueil</a></span>
-            <span><a href="#histoire">L'Atelier</a></span>
-            <span><a href="#galerie">Galerie</a></span>
-            <span><a href="#contact">Contact</a></span>            
+            <ul class="nav-list">
+                <li><a href="#accueil" class="nav-link">Accueil</a></li>
+                <li><a href="#histoire" class="nav-link">L'Atelier</a></li>
+                <li><a href="#galerie" class="nav-link">Galerie</a></li>
+                <li><a href="#Contact" class="nav-link">Contact</a></li>
+            </ul>    
         </nav>
         <div class="hero-section">
             <div class="head-title">
                 <h1>Coutellerie d'art</h1>
-                <h2>Beau Merle</h2>
+                <h2>Atelier Beau Merle</h2>
                 <p>Fabrication artisanale à Chabreloche</p>
             </div>
         </div>

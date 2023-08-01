@@ -6,8 +6,18 @@ $alternateBackground: #a98467;
 $primaryText: #adc178;
 $secondaryText: #6c584c;
 $light: #dde5b6;
+$lightDark: #333;
+$dark: #222;
 
 // fonts
 
 $title: "Cinzel Decorative", sans-serif;
 $main: "Raleway", sans-serif;
+
+// shadows
+
+$boxShadow: 0 5px 10px rgba(0,0,0,.3);
+
+// transitions
+
+$menuBezier: 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
