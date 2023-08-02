@@ -5,11 +5,20 @@
 @import './base/default';
 @import './components/buttons';
 @import './components/menu';
+@import './components/footer';
 
 body{
-    height: 100vh;
     background: $background;
     font-family: $main;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 
+    main{
+        flex-grow: 1;
+        padding: 80px;
+        min-height: 800px;
+    }
 
+    
 }
