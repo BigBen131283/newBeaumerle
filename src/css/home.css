@@ -294,87 +294,112 @@ body {
   font-family: "Raleway", sans-serif;
   min-height: 100vh;
   display: flex;
-  flex-direction: column; }
-  body .hero-section {
-    width: 100%;
-    height: 100vh;
-    background-image: url(../images/hero-section-photo-2.jpg);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-    display: flex;
-    justify-content: flex-end;
-    align-items: center; }
-    @media screen and (min-width: 900px) {
-      body .hero-section {
-        background-image: url(../images/hero-section-photo-1.jpg); } }
-    body .hero-section .head-title {
+  flex-direction: column;
+  align-items: center; }
+  body header {
+    width: 100%; }
+    body header .hero-section {
       width: 100%;
+      height: 100vh;
+      background-image: url(../images/hero-section-photo-2.jpg);
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+      position: relative;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
       display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      transform: translateY(-25%);
-      padding: 25px;
-      color: #adc178;
-      overflow: hidden; }
+      justify-content: flex-end;
+      align-items: center; }
       @media screen and (min-width: 900px) {
-        body .hero-section .head-title {
-          width: 50%;
-          align-items: flex-end;
-          padding-right: 200px;
-          transform: translateY(0%); } }
-      body .hero-section .head-title h1 {
-        font-family: "Cinzel Decorative", sans-serif;
-        font-size: 3rem;
-        font-weight: 600;
-        padding-bottom: 30px;
-        text-align: center;
-        display: inline-block;
+        body header .hero-section {
+          background-image: url(../images/hero-section-photo-1.jpg); } }
+      body header .hero-section .head-title {
         width: 100%;
-        text-shadow: 4px 3px 0px rgba(173, 193, 120, 0.3), 0px 0px 3px rgba(173, 193, 120, 0.3), 0px 0px 9px rgba(173, 193, 120, 0.4);
-        transform: translateX(100%);
-        opacity: 0;
-        transition: all .5s ease-out; }
-        body .hero-section .head-title h1.visible {
-          transform: translateX(0%);
-          opacity: 1; }
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transform: translateY(-25%);
+        padding: 25px;
+        color: #adc178;
+        overflow: hidden; }
         @media screen and (min-width: 900px) {
-          body .hero-section .head-title h1 {
-            text-align: right;
-            font-size: 6rem; } }
-      body .hero-section .head-title h2 {
-        font-size: 2.5rem;
-        font-weight: 600;
-        line-height: 2.5;
-        text-align: right;
-        display: inline-block;
-        width: 100%;
-        transform: translateX(-100%);
-        opacity: 0;
-        transition: all .5s ease-out; }
-        body .hero-section .head-title h2.visible {
-          transform: translateX(0%);
-          opacity: 1; }
-        @media screen and (min-width: 900px) {
-          body .hero-section .head-title h2 {
-            font-size: 5rem; } }
-      body .hero-section .head-title p {
-        font-size: 1.5rem;
-        line-height: 1.4;
-        text-align: right;
-        display: inline-block;
-        width: 100%;
-        opacity: 0;
-        transition: all .5s ease-out; }
-        body .hero-section .head-title p.visible {
-          opacity: 1; }
-        @media screen and (min-width: 900px) {
-          body .hero-section .head-title p {
-            font-size: 2.5rem; } }
+          body header .hero-section .head-title {
+            width: 50%;
+            align-items: flex-end;
+            padding-right: 200px;
+            transform: translateY(0%); } }
+        body header .hero-section .head-title h1 {
+          font-family: "Cinzel Decorative", sans-serif;
+          font-size: 3rem;
+          font-weight: 600;
+          padding-bottom: 30px;
+          text-align: center;
+          display: inline-block;
+          width: 100%;
+          text-shadow: 4px 3px 0px rgba(173, 193, 120, 0.3), 0px 0px 3px rgba(173, 193, 120, 0.3), 0px 0px 9px rgba(173, 193, 120, 0.4);
+          transform: translateX(100%);
+          opacity: 0;
+          transition: all .5s ease-out; }
+          body header .hero-section .head-title h1.visible {
+            transform: translateX(0%);
+            opacity: 1; }
+          @media screen and (min-width: 900px) {
+            body header .hero-section .head-title h1 {
+              text-align: right;
+              font-size: 6rem; } }
+        body header .hero-section .head-title h2 {
+          font-size: 2.5rem;
+          font-weight: 600;
+          line-height: 2.5;
+          text-align: right;
+          display: inline-block;
+          width: 100%;
+          transform: translateX(-100%);
+          opacity: 0;
+          transition: all .5s ease-out; }
+          body header .hero-section .head-title h2.visible {
+            transform: translateX(0%);
+            opacity: 1; }
+          @media screen and (min-width: 900px) {
+            body header .hero-section .head-title h2 {
+              font-size: 5rem; } }
+        body header .hero-section .head-title p {
+          font-size: 1.5rem;
+          line-height: 1.4;
+          text-align: right;
+          display: inline-block;
+          width: 100%;
+          opacity: 0;
+          transition: all .5s ease-out; }
+          body header .hero-section .head-title p.visible {
+            opacity: 1; }
+          @media screen and (min-width: 900px) {
+            body header .hero-section .head-title p {
+              font-size: 2.5rem; } }
   body main {
     flex-grow: 1;
-    padding: 80px;
-    min-height: 800px; }
+    padding: 10px;
+    min-height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    @media screen and (min-width: 900px) {
+      body main {
+        padding: 80px; } }
+  body .workshop {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; }
+    body .workshop .container {
+      width: 100%; }
+      @media screen and (min-width: 900px) {
+        body .workshop .container {
+          max-width: 1100px; } }
+    body .workshop .negativ-container {
+      transform: translateY(-180px);
+      background: #f0ead2; }
